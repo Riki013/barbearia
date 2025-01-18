@@ -579,7 +579,8 @@ footer {
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 30px;
-    position: relative;
+    position: relative;   
+    z-index: 8;
     
 }
 
