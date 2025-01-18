@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/logo_barbe.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsividade.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <title>Gentlemen's Club Barbershop</title>
+</head>
+
+<body>
+
+    <video class="video" src="video/barber_shop.mp4" autoplay muted loop></video>
+    <header class="header">
+        <nav class="nav-bar">
+            <div class="img_logo">
+                <a href="index.html">
+                    <img class="logo" src="image/logo.png" alt="Logotipo da Barbearia">
+                </a>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#sobre-nos" class="nav-link">Sobre Nós</a></li>
+                    <li class="nav-item"><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li class="nav-item"><a href="#nossa-equipe" class="nav-link">Nossa Equipe</a></li>
+                    <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+                    <li class="nav-item"><a href="https://negocios.trinks.com/negocios/barbearias/" target="_blank" class="nav-link">Agendamento</a></li>                    
+                </ul>
+            </div>
+
+            <div class="midia_social">
+                <a href="https://pt-br.facebook.com/" target="_blank">
+                    <img src="image/facebook.png" alt="Logo facebook">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="image/instagram.png" alt="Logo instagram">
+                </a>
+                <a href="https://web.whatsapp.com/" target="_blank">
+                    <img src="image/whatsapp.png" alt="Logo whatsapp">
+                </a>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="image/mobile_menu.png" alt=""></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#sobre-nos" class="nav-link">Sobre Nós</a></li>
+                <li class="nav-item"><a href="#servicos" class="nav-link">Serviços</a></li>
+                <li class="nav-item"><a href="#nossa-equipe" class="nav-link">Nossa Equipe</a></li>
+                <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+                <li class="nav-item"><a href="https://negocios.trinks.com/negocios/barbearias/" target="_blank"
+                        class="nav-link">Agendamento</a></li>
+            </ul>
+    </header>
+
+    <div class="p_gentlemen-container">
+        <p class="p_gentlemen">Gentlemen's Club</p>
+        <p class="p_ini">Tradição, estilo e confiança se encontram.</p>
+    </div>
+
+    <section id="sobre-nos">
+        <div class="pag-2">
+            <div class="section-2-texto">
+                <div class="text-box-a">
+                    <h1 class="animate-on-scroll-a">“Desde 1997, Cuidando do Seu Estilo com Excelência”</h1>
+                    <p class="animate-on-scroll-a">
+                        Nossa história começou em 1997 com o propósito de transformar o barbear em uma experiência
+                        única, oferecendo um atendimento excepcional. Com dedicação e paixão, crescemos e nos tornamos
+                        uma das barbearias mais renomadas da cidade. Aqui, cada detalhe importa — do corte impecável ao
+                        café enquanto você espera. Nosso objetivo é que você se sinta em casa e saia com um novo visual
+                        e a certeza do melhor atendimento. <br><br>
+                        <strong>Bem-vindo ao Gentlemen's Club: onde tradição, estilo e confiança se encontram.</strong>
+                    </p>
+                </div>
+            </div>
+
+            <div class="slider-container">
+                <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+                <div class="slider">
+                    <img src="image/slider001.jpg" alt="Imagem 1" class="slide active">
+                    <img src="image/slider002.jpg" alt="Imagem 2" class="slide">
+                    <img src="image/slider003.jpg" alt="Imagem 3" class="slide">
+                    <img src="image/slider004.jpg" alt="Imagem 4" class="slide">
+                    <img src="image/slider005.jpg" alt="Imagem 5" class="slide">
+                </div>
+                <button class="next" onclick="changeSlide(1)">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <div class="pag-3">
+            <div class="section-3-texto">
+                <div class="text-box-b">
+                    <div class="img-serv">
+                        <img src="image/teste1.png" alt="Imagem">
+                    </div>
+                </div>
+            </div>
+            <div class="servicos-container">
+                <h1>“Nossos Serviços”</h1>
+            </div>
+
+            <ul>
+                <li>Corte
+                    <pre>R$45,00</pre>
+                </li>
+                <li>Barbearia
+                    <pre>R$25,00</pre>
+                </li>
+                <li>Corte Infantil
+                    <pre>R$60,00</pre>
+                </li>
+                <li>Corte só maquina (Geral até 2 pentes)
+                    <pre>R$40,00</pre>
+                </li>
+                <li>Corte raspado (Raspado+Shaver)
+                    <pre>R$40,00</pre>
+                </li>
+                <li>Acabamento (Pezinho)
+                    <pre>R$15,00</pre>
+                </li>
+                <li>Sobrancelha navalha
+                    <pre>R$15,00</pre>
+                </li>
+                <li>Depilação com cera (Nariz e orelha)
+                    <pre>R$25,00</pre>
+                </li>
+                <li>Freestyle (Desenho no cabelo)
+                    <pre>R$15,00</pre>
+                </li>
+                <li>Hidratação
+                    <pre>R$40,00</pre>
+                </li>
+            </ul>
+
+            <div class="servicos-container">
+                <h1>“Combos”</h1>
+            </div>
+            <ul>
+                <li>Combo corte e barba
+                    <pre>R$65,00</pre>
+                </li>
+                <li>Combo só maquina
+                    <pre>R$50,00</pre>
+                </li>
+                <li>Combo corte + barba + sobrancelha
+                    <pre>R$75,00</pre>
+                </li>
+            </ul>
+
+            <div class="servicos-container">
+                <h1>“Procedimentos Químicos”</h1>
+            </div>
+            <ul>
+                <li>Camuflagem dos fios brancos
+                    <pre>R$40,00</pre>
+                </li>
+                <li>Progressiva/selagem/relaxamento (a partir)
+                    <pre>R$75,00</pre>
+                </li>
+                <li>Platinado (a partir)
+                    <pre>R$220,00</pre>
+                </li>
+                <li>Matização
+                    <pre>R$220,00</pre>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="area-beer">
+        <div class="area-beer-box">
+            <p>Enquanto você relaxa, aproveite nossa área de lazer e o cantinho exclusivo da Área Beer, onde você pode
+                saborear cervejas artesanais, whisky, gin, vermute e outras delícias, transformando sua espera em um
+                momento de puro prazer e descontração. </p>
+            <img src="image/area-beer.jpg" alt="Imagem 2">
+        </div>
+    </section>
+
+    <section id="nossa-equipe">
+        <div>
+            <h1>“Nossa Equipe”</h1>
+        </div>
+        <div class="equipe">
+            <div>
+                <img src="image/Richard.jpg" alt="Richard">
+                <p>Richard</p>
+            </div>
+            <div>
+                <img src="image/Richard.jpg" alt="Breno">
+                <p>Jeff</p>
+            </div>
+            <div>
+                <img src="image/Jeff.jpg" alt="Jeff">
+                <p>Breno</p>
+            </div>
+            <div>
+                <img src="image/Jeff.jpg" alt="Lucca">
+                <p>Lucca</p>
+            </div>
+            <div>
+                <img src="image/Vanessa.png" alt="Ana">
+                <p>Ana</p>
+            </div>
+            <div>
+                <img src="image/Vanessa.png" alt="Vanessa">
+                <p>Vanessa</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div>
+            <h1>“Contato”</h1>
+            <p>(13)3333-2222 / (13)9999-9999 (Whatsapp) </p>
+            <h1>Hórarios de Atendimento</h1>
+            <p>Segunda a Domingo ...................................8:00 às 18:00h</p>
+        </div>
+        <div class="mapa-google">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2578.1666126062655!2d-46.34623836099977!3d-23.957675093888746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce036caaffbb23%3A0x2bddb50e67e39f24!2sCondom%C3%ADnio%20Edif%C3%ADcio%20Sandra%20Lia%20-%20R.%20Evaristo%20da%20Veiga%2C%20301%20-%20Campo%20Grande%2C%20Santos%20-%20SP%2C%2011075-661!5e0!3m2!1spt-BR!2sbr!4v1732972253826!5m2!1spt-BR!2sbr"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section id="formulario">
+        <form class="form-container">
+            <h2>Contato</h2>
+            <div class="form-group">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" placeholder="Digite seu nome" required>                
+            </div> 
+
+            <div class="form-group">
+                <label for="phone">Telefone</label>
+                <input type="tel" id="phone" name="phone" placeholder="Digite seu telefone" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" placeholder="Digite sua mensagem" required></textarea>
+            </div>    
+            <button type="submit" class="submit-btn">Enviar</button>
+        </form>
+    </section>  
+
+    <footer>
+        <p>&copy; 2025 Riki Ide. Todos os direitos reservados.- "As imagens são de uso não comercial e não têm fins
+            lucrativos."</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+.form-container {
+    background: url(image/Brown\ Black.png) center center / cover;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 850px;    
+    margin: -32% auto 0;    
+    font-family: "Fredericka the Great", serif;
+    margin-top: 90px;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(187, 152, 77);
+    font-size: 24px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(187, 152, 77);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: rgb(187, 152, 77);
+    box-shadow: 0 0 5px rgb(243, 166, 0);
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(187, 152, 77);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: rgb(243, 166, 0);
+}
+
+@media (max-width: 768px) {
+    .form-container {
+        width: 100%;
+    }
+}
