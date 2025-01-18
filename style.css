@@ -531,6 +531,8 @@ pre {
     background: url('/image/pag2.png') no-repeat center center/cover;
     height: 105vh;
     padding: 5px;
+    position: relative; 
+    z-index: 1; 
 }
 
 #contato h1 {
