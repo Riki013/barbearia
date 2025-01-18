@@ -528,7 +528,7 @@ pre {
 }
 
 #contato {
-    background: url('/image/pag2.png') no-repeat center center/cover;
+    background: url(/image/pag2.png) no-repeat center center/cover;
     height: 105vh;
     padding: 5px;
     position: relative; 
